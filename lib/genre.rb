@@ -11,4 +11,6 @@ class Genre
   end 
   
   def songs 
+    Song.all.select
+  end
 end
